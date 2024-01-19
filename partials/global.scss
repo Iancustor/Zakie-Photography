@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "DM Serif Display", serif;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1rem;
+  color: var(--secondary);
+}
+h2 {
+  font-size: 2rem;
+}
+section {
+  display: grid;
+  gap: 2rem;
+}
+#section1 {
+  background: linear-gradient(
+      45deg,
+      rgba(0, 0, 0, 0.469),
+      rgba(64, 64, 64, 0.249)
+    ),
+    url(/images/zakie1.webp);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: whitesmoke;
+}
+#contactmain {
+  background: linear-gradient(
+      45deg,
+      rgba(0, 0, 0, 0.597),
+      rgba(64, 64, 64, 0.405)
+    ),
+    url(/images/image.jpg);
+  color: whitesmoke;
+  background-size: cover;
+  background-position: center;
+}
+
+#secondSet {
+  display: grid;
+  margin-top: 1rem;
+}
+#contactForm {
+  border: 2px solid whitesmoke;
+  padding: 5rem 1.5rem;
+  border-radius: 10px;
+  background: whitesmoke;
+  z-index: 5;
+}
